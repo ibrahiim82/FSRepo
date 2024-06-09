@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+
+    <style>
+      #age {
+        width: 50px;
+        border: 2px solid;
+      }
+      h1 {
+        text-align: center;
+      }
+      textarea {
+        width: 350px;
+        height: 130px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ABC Tasarım Programı Kurulum ve Tasarım Sözleşmesi</h1>
+
+    <form action="result.html" method="get">
+      <div>
+        <fieldset>
+          <legend>Sözleşme Onay</legend>
+          <br />
+          <div>
+            <input type="checkbox" id="Onay" name="Kabul" value="Onaylandı" />
+            <label for="Onay"
+              >Aşağıdaki Bilgilerin Doğruluğunu Kabul Ediyorum ve Sözleşmesini
+              Onaylıyorum.</label
+            ><br />
+            <input type="reset" value="Formu Temizle" />
+            <input type="submit" value="Formu Kaydet" />
+          </div>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Kişisel Bilgiler</legend>
+          <label for="ID">Form Güvenlik ID</label>
+          <input
+            id="ID"
+            type="text"
+            name="Girilen isim"
+            disabled
+            value="asdfgh"
+          />
+          <br />
+          <label for="isim">Ad</label>
+          <input id="isim" type="text" name="Girilen isim" />
+          <br />
+          <label for="soyisim">Soyad</label>
+          <input type="text" id="soyisim" name="Girilen Soyisim" />
+          <br />
+          <label for="age">Yaş</label>
+          <input type="number" name="Girilen Yaş" id="age" />
+          <br />
+
+          <label for="email">Mail Adresi</label>
+          <input type="email" name="Girilen Email" id="email" />
+          <br />
+
+          <label for="file">Fotoğraf ekle</label>
+          <input type="file" name="file" id="file" />
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Diğer Bilgiler</legend>
+          <h2 style="font-size: 18px; margin-left: 40px">
+            Buradaki alanlar Mesleki deneyimi kapsar
+          </h2>
+
+          <label for="date">Sektöre Giriş Tarihi</label>
+          <input
+            style="margin-left: 130px"
+            type="date"
+            name="Tarih"
+            id="date"
+          /><br />
+          <label for="">Sektör Deneyimi</label>
+          <input
+            style="margin-left: 150px"
+            type="radio"
+            id="yeni"
+            name="yıl"
+            value="1-5 yıl"
+          />
+          <label for="yeni">1-5 yıl</label>
+          <br />
+          <input
+            style="margin-left: 263px"
+            type="radio"
+            id="orta"
+            name="yıl"
+            value="6-10 yıl"
+          /><label for="orta"> 6-10 yıl</label>
+          <br />
+          <input
+            style="margin-left: 263px"
+            type="radio"
+            id="senior"
+            name="yıl"
+            value="11-15 yıl"
+          /><label for="senior"> 11-15 yıl</label>
+          <br />
+          <input
+            style="margin-left: 263px"
+            type="radio"
+            id="master"
+            name="yıl"
+            value="15-üzeri"
+          /><label for="master"> 15-üzeri</label><br /><br />
+          <label for="dil">Programlama Dilleri</label>
+          <select
+            style="margin-left: 125px"
+            name="dil"
+            id="dil"
+            size="5"
+            multiple
+          >
+            <option value="C#">C#</option>
+            <option value="PHP">PHP</option>
+            <option value="Java">Java</option>
+            <option value="Java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+          </select>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Sözleşme Kopyası</legend>
+          <label for="sözleşme"></label>
+          <textarea name="text" id="sözleşme">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, a corporis ullam facere quibusdam consectetur saepe incidunt fuga, optio accusantium nesciunt quod asperiores nulla maxime odit ad possimus ratione. Voluptatum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, a corporis ullam facere quibusdam consectetur saepe incidunt fuga, optio accusantium nesciunt quod asperiores nulla maxime odit ad possimus ratione. Voluptatum.</textarea
+          >
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Mail Listesi</legend>
+          <label for="sözleşme"
+            >Mail Listesine Katılmak <strong><u>İstiyorum</u></strong></label
+          >
+          <input
+            type="radio"
+            id="sözleşme"
+            name="mail listesi"
+            value="istiyorum"
+          />
+          <br />
+          <label for="sözleşme"
+            >Mail Listesine Katılmak <strong><u>İstemiyorum</u></strong></label
+          >
+          <input
+            type="radio"
+            id="sözleşme"
+            name="mail listesi"
+            value="istiyorum"
+          />
+        </fieldset>
+      </div>
+    </form>
+  </body>
+</html>
