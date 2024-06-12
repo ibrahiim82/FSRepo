@@ -1,0 +1,93 @@
+body {
+  background-color: pink;
+}
+.box {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}
+.box2 {
+  margin: 0px 10px;
+}
+.box4 {
+  float: right;
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}
+.box6 {
+  margin: 0px 10px;
+}
+.clear {
+  clear: both;
+}
+.box8 {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  float: left;
+  margin-top: 10px;
+}
+.box10 {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  float: right;
+  margin-top: 10px;
+}
+.box12 {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin-top: 10px;
+}
+.box13 {
+  margin-right: 10px;
+}
+.box15 {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  float: right;
+  margin-top: 10px;
+}
+.clear {
+  clear: both;
+}
+.box17 {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  float: left;
+  margin-top: 10px;
+}
+.box19 {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  float: right;
+  margin-top: 10px;
+}
+.clear {
+  clear: both;
+}
+.box21 {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  float: left;
+  margin-top: 10px;
+}
+.box23 {
+  float: right;
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin-top: 10px;
+}
+.box25 {
+  margin-right: 10px;
+  margin-left: 10px;
+}

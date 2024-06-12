@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+}
+.header {
+  width: 800px;
+  height: 100px;
+  background-color: rgb(204, 72, 24);
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+.nav {
+  width: 800px;
+  height: 75px;
+  background-color: rgb(73, 140, 240);
+  margin-top: 5px;
+}
+h2 {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.aside {
+  width: 200px;
+  height: 300px;
+  background-color: yellow;
+  float: left;
+}
+h3 {
+  text-align: center;
+  padding-top: 120px;
+}
+.clear {
+  clear: both;
+}
+.main {
+  width: 800px;
+  height: 300px;
+  background-color: white;
+}
+
+.footer {
+  width: 800px;
+  height: 100px;
+  background-color: grey;
+}
+h4 {
+  text-align: center;
+  color: black;
+  padding-top: 35px;
+}
